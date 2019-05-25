@@ -44,6 +44,7 @@ public class EntryActivity extends BaseActivity {
 
     private void showNumberOfPacksChooser(final StickerPack stickerPack) {
         final EditText txtUrl = new EditText(this);
+        txtUrl.setPadding(80, txtUrl.getPaddingTop(), 80, txtUrl.getPaddingBottom());
 
         txtUrl.setHint("A number from 1 to 1000");
 
